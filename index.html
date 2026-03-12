@@ -1,57 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Habdel Coulibaly</h1>
-        <p>Développeur web en formation</p>
-        <nav aria-label="Navigation principale">
-            <ul>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#skills">Compétences</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <h1>Habdel Coulibaly</h1>
+      <nav aria-label="Navigation principale">
+        <ul>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section id="about">
-            <h2>À propos de moi</h2>
-            <p>Habdel Coulibaly est un développeur web en formation passionné par la technologie et la création de solutions digitales. Il travaille sur des projets concrets allant du développement de sites web à la conception de plateformes SaaS, avec une orientation particulière vers des solutions innovantes dans le milieu chrétien. Animé par une vision de croissance rapide, il combine apprentissage intensif, discipline et créativité pour devenir un développeur full-stack accompli.</p>
-        </section>
-        <section id="skills">
-            <h2>Compétences</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CS3 (en cours)</li>
-                <li>Git</li>
-            </ul>
-        </section>
-        <section id="projects">
-            <h2>Projets</h2>
-            <article>
-                <h3>Portfolio Personnel</h3>
-                <p>Ma première page web - HTML sémantique.</p>
-                <a href="#">Voir le code</a>
-            </article>
-        </section>
+  <!-- CONTENU PRINCIPAL -->
+  <main>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email : <a href="mailto:habdelcoulibaly01@gmail.com">habdelcoulibaly01@gmail.com</a></p>
-        </section>
-    </main>
+    <!-- À PROPOS -->
+    <section id="about">
+      <div class="container">
+        <h2>À propos de moi</h2>
+        <p>Je suis développeur web en formation passionné par la technologie et la création de solutions digitales. Je travailles sur des projets concrets allant du développement de sites web à la conception de plateformes SaaS, avec une orientation particulière vers des solutions innovantes dans le milieu chrétien. Animé par une vision de croissance rapide, je combine apprentissage intensif, discipline et créativité pour devenir un développeur full-stack accompli. Je construis des projets réels chaque jour avec HTML, CSS, JavaScript et React.</p>
+      </div>
+    </section>
 
-    <footer>
-        <p>© 2026 Habdel Coulibaly · Fait avec ❤️ et HTML</p>
+    <!-- COMPÉTENCES -->
+    <section id="skills">
+      <div class="container">
+        <h2>Compétences</h2>
+        <ul class="skills-grid">
+          <li class="skill-card">HTML5</li>
+          <li class="skill-card">CSS3</li>
+          <li class="skill-card">Git &amp; GitHub</li>
+          <li class="skill-card">JavaScript (en cours)</li>
+          <li class="skill-card">VS Code</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projets</h2>
+        <div class="projects-grid">
+          <article>
+            <h3>Portfolio Personnel</h3>
+            <p>Ma première page web — structure HTML5 sémantique, CSS avec Flexbox &amp; Grid, déployé sur GitHub Pages.</p>
+            <a href="https://github.com/Habdel03" target="_blank">Voir le code</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email : <a href="habdelcoulibaly01@gmail.com">habdelcoulibaly01@gmail.com</a></p>
+        <p>GitHub : <a href="https://github.com/Habdel03" target="_blank">github.com/Habdel03</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Habdel Coulibaly · Fait avec ❤️ et HTML</p>
+      <div class="footer-links">
         <a href="https://github.com/Habdel03" target="_blank">GitHub</a>
-    </footer>
-    
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
